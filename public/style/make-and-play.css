@@ -1,0 +1,87 @@
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#canvas{
+	border: none; 
+	width: 100%; 
+	height: 100%;
+}
+
+#controls{
+	position: absolute;
+	width: 100px;
+	background-color: #666666;
+	left: 10px;
+	top: 10px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+#controls .control{
+	width: 13px;
+	height: 39px;
+	margin: 5px 0px 0px 5px;
+	border: 1px solid black;
+	background-color: #999999;
+	float: left;
+
+	font-size: 25px;
+	font-weight: 700;
+	padding: 2px 15px 2px 15px;
+}
+
+#controls .control:hover{
+	background-color: #bbbbbb;
+}
+#add-box{
+	background-image: url('../images/add-box.png')
+}
+#add-roll{
+	background-image: url('../images/add-roll.png')
+}
+#add-cone{
+	background-image: url('../images/add-cone.png')
+}
+#add-pyramid{
+	background-image: url('../images/add-pyramid.png')
+}
+#move-forward{
+	background-image: url('../images/blue-minus.png');
+}
+#move-backward{
+	background-image: url('../images/blue-plus.png');
+}
+#move-left{
+	background-image: url('../images/red-minus.png');
+}
+#move-right{
+	background-image: url('../images/red-plus.png');
+}
+#move-up{
+	background-image: url('../images/yellow-plus.png');
+}
+#move-down{
+	background-image: url('../images/yellow-minus.png');
+}
+#rotate-pitch{
+	background-image: url('../images/red-rotate.png');
+}
+#rotate-yaw{
+	background-image: url('../images/yellow-rotate.png');
+}
+#rotate-roll{
+	background-image: url('../images/blue-rotate.png');
+}
+#clear{
+	background-image: url('../images/new-scene.png');
+}
+#save{
+	background-image: url('../images/save-scene.png');
+}
+#load{
+	background-image: url('../images/load-scene.png');
+}
+
